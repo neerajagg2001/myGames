@@ -28,7 +28,7 @@ public class ArrayTicTacToe implements TicTacToe {
   public boolean makeMove() {
     boolean isValid = false;
     do{
-      System.out.println("Player "+currentPlayer+" .Please enter a move row column index format eg. 0 2");
+      System.out.println("Player "+currentPlayer+" .Please enter a position no. to make a move");
       int position = in.nextInt();
       curCol = (position-1)%3;
       curRow = ((position+2)/3)-1;
